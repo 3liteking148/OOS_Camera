@@ -14863,11 +14863,7 @@
     if-gez v0, :cond_1
 
     .line 4151
-    iget-object v0, p0, Lcom/oneplus/camera/LegacyCameraImpl;->m_CameraParameters:Landroid/hardware/Camera$Parameters;
-
-    invoke-virtual {v0}, Landroid/hardware/Camera$Parameters;->getJpegQuality()I
-
-    move-result v0
+    const/16 v0, 0x64
 
     iput v0, p0, Lcom/oneplus/camera/LegacyCameraImpl;->m_JpegQuality:I
 
